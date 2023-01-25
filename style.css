@@ -1,0 +1,27 @@
+.main-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-header {
+    max-width: 500px;
+}
+
+.body {
+    max-width: 500px;
+}
+
+.image {
+    max-width: 500px;
+}
+
+.title {
+    position: absolute;
+    word-break: break-word;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.50);
+    min-width: 500px;
+    min-height: 100px;
+}
